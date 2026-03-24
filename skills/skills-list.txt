@@ -1,0 +1,62 @@
+# Skills List
+# Format: skill_name:source_path
+# Source paths are relative to $HOME
+
+# GStack workflow skills (symlinked to gstack repo)
+autoplan:.claude/skills/gstack/autoplan
+benchmark:.claude/skills/gstack/benchmark
+browse:.claude/skills/gstack/browse
+canary:.claude/skills/gstack/canary
+careful:.claude/skills/gstack/careful
+codex:.claude/skills/gstack/codex
+cso:.claude/skills/gstack/cso
+design-consultation:.claude/skills/gstack/design-consultation
+design-review:.claude/skills/gstack/design-review
+document-release:.claude/skills/gstack/document-release
+freeze:.claude/skills/gstack/freeze
+gstack-upgrade:.claude/skills/gstack/gstack-upgrade
+guard:.claude/skills/gstack/guard
+investigate:.claude/skills/gstack/investigate
+land-and-deploy:.claude/skills/gstack/land-and-deploy
+office-hours:.claude/skills/gstack/office-hours
+plan-ceo-review:.claude/skills/gstack/plan-ceo-review
+plan-design-review:.claude/skills/gstack/plan-design-review
+plan-eng-review:.claude/skills/gstack/plan-eng-review
+qa:.claude/skills/gstack/qa
+qa-only:.claude/skills/gstack/qa-only
+retro:.claude/skills/gstack/retro
+review:.claude/skills/gstack/review
+setup-browser-cookies:.claude/skills/gstack/setup-browser-cookies
+setup-deploy:.claude/skills/gstack/setup-deploy
+ship:.claude/skills/gstack/ship
+unfreeze:.claude/skills/gstack/unfreeze
+
+# Custom skills (symlinked to .agents/skills/)
+baoyu-xhs-images:.agents/skills/baoyu-xhs-images
+figma:.agents/skills/figma
+find-skills:.agents/skills/find-skills
+github-to-skills:.agents/skills/github-to-skills
+golang-pro:.agents/skills/golang-pro
+google-docs:.agents/skills/google-docs
+job-application-optimizer:.agents/skills/job-application-optimizer
+k8s-manifest-generator:.agents/skills/k8s-manifest-generator
+macos-design-guidelines:.agents/skills/macos-design-guidelines
+monitoring-observability:.agents/skills/monitoring-observability
+notion-api:.agents/skills/notion-api
+resume-design-generation:.agents/skills/resume-design-generation
+resume-generator:.agents/skills/resume-generator
+resume-optimizer:.agents/skills/resume-optimizer
+resume-writer:.agents/skills/resume-writer
+skill-evolution-manager:.agents/skills/skill-evolution-manager
+skill-manager:.agents/skills/skill-manager
+sre-engineer:.agents/skills/sre-engineer
+terraform-style-guide:.agents/skills/terraform-style-guide
+web-design-guidelines:.agents/skills/web-design-guidelines
+workflow-automation:.agents/skills/workflow-automation
+write-xiaohongshu:.agents/skills/write-xiaohongshu
+xiaohongshu:.agents/skills/xiaohongshu
+xiaohongshu-cover-generator:.agents/skills/xiaohongshu-cover-generator
+xiaohongshu-images:.agents/skills/xiaohongshu-images
+xiaohongshu-note-analyzer:.agents/skills/xiaohongshu-note-analyzer
+xhs-note-creator:.agents/skills/xhs-note-creator
+xhs-publisher:.agents/skills/xhs-publisher

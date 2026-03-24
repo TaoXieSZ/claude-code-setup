@@ -1,0 +1,28 @@
+{
+  "permissions": {
+    "allow": [
+      "Skill(find-skills)",
+      "Bash(npx skills find:*)",
+      "Bash(npx skills add:*)",
+      "Bash(cat:*)",
+      "Bash(curl:*)",
+      "Bash(~/.agents/skills/google-docs/scripts/google-docs.py:*)",
+      "Bash(pip install:*)",
+      "Bash(lsof:*)",
+      "Bash(kill:*)",
+      "Bash(chmod +x:*)",
+      "Bash(open:*)",
+      "WebSearch",
+      "Bash(python:*)",
+      "Bash(wm:*)",
+      "Bash(code:*)",
+      "Bash(pip:*)",
+      "Bash(pgrep:*)",
+      "Bash(ls:*)",
+      "Bash(python3:*)",
+      "Bash(pkill:*)",
+      "Bash(rm:*)",
+      "Bash(export:*)"
+    ]
+  }
+}

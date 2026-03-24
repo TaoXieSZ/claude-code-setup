@@ -1,0 +1,20 @@
+# Git ignore for claude-code-setup
+
+# Sound files (too large for git)
+hooks/sounds/
+
+# Local overrides
+*.local.json
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/
+*.swp
+
+# Temporary files
+*.tmp
+*.bak
