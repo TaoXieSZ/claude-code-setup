@@ -35,6 +35,7 @@ unfreeze:.claude/skills/gstack/unfreeze
 baoyu-xhs-images:.agents/skills/baoyu-xhs-images
 figma:.agents/skills/figma
 find-skills:.agents/skills/find-skills
+flomo:.agents/skills/flomo
 github-to-skills:.agents/skills/github-to-skills
 golang-pro:.agents/skills/golang-pro
 google-docs:.agents/skills/google-docs

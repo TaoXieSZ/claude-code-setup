@@ -72,6 +72,12 @@ while IFS= read -r line; do
     fi
 done < "$SCRIPT_DIR/skills/skills-list.txt"
 
+# Copy custom skill files that have scripts
+echo "📄 Copying custom skill files..."
+if [ -d "$SCRIPT_DIR/skills/flomo" ]; then
+    cp -r "$SCRIPT_DIR/skills/flomo/"* "$AGENTS_DIR/skills/flomo/"
+fi
+
 # Install claude-hud plugin
 echo "🔌 Installing claude-hud plugin..."
 claude /claude-hud:setup 2>/dev/null || echo "   (Install manually with: /claude-hud:setup)"
